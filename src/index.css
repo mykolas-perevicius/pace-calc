@@ -65,4 +65,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+  .highlight {
+    background-color: #e0e0e0; /* Lighter gray background suitable for light mode */
+    color: #333; /* Darker text color for better readability on light background */
+    border: 1px solid #bbb; /* Lighter border color that fits the light theme */
+    /* Keep the rest of the properties unchanged */
+  }
+
 }
